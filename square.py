@@ -2,8 +2,10 @@ for x in range(1, 11, 1):
     line = ""
     if x % 2 != 0:
         for y in range(1, 11, 1):
-            line += str(y) + " "
+            if y % 2 != 0:
+                line += str(y) + " "
+            else:
+                line += "  "
+        print(line)
     else:
-        for y in range(10, 0, -1):
-            line += str(y) + " "
-    print(line)
+        print()
