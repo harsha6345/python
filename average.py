@@ -18,6 +18,6 @@ for i in range(n):
 hm = n / denom
 
 avg = sum / n
-print("The Arithmetic mean is ", avg)
-print("Geometric mean is ", gm)
-print("Harmonic mean is ", hm)
+print("1. Arithmetic mean is ", avg)
+print("2. Geometric mean is ", gm)
+print("3. Harmonic mean is ", hm)
