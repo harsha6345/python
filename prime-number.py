@@ -7,4 +7,4 @@ def prime(number):
     return flag
 
 
-print(prime(10))
+print(prime(13))
